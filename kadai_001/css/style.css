@@ -27,7 +27,7 @@ h1 {
 
 .header-all a {
   text-decoration: none;
-  /* margin-left: 20px; */
+  margin-left: 20px;
   color: #0d0d0d;
 }
 
@@ -87,6 +87,7 @@ h2 {
   width: 280px;
   height: 280px;
 }
+
 #about-text {
   margin: 0 auto;
   padding: 0 20px;
@@ -114,5 +115,61 @@ h2 {
 
 footer p {
   text-align: center;
-  font-size: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 767px) {
+  .header-all {
+    /* text-decoration: none;
+    margin-left: 20px;
+    color: #0d0d0d; */
+    /* font-size: 18px; */
+    max-width: 960px;
+  }
+
+  .header-all a {
+    /* text-decoration: none;
+    margin-left: 20px;
+    color: #0d0d0d; */
+    /* font-size: 18px; */
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 28px;
+    margin: 0;
+    /* border: 1px solid #000000; */
+    /* padding: 0 20px; */
+  }
+
+  .header-nav ul {
+    align-items: center;
+  }
+
+  .header-nav a {
+    /* margin: 0 20px;
+    list-style: none;
+    font-weight: bold; */
+    /* text-align: center; */
+    margin: 0;
+    font-size: 21px;
+  }
+
+  h2 {
+    font-size: 28px;
+    /* text-align: center;
+    margin: 0;
+    padding: 60px 0 40px 0; */
+  }
+
+  .works-block {
+    padding-bottom: 20px;
+    width: 100%;
+  }
+
+  .about-image {
+    margin: 0 auto;
+  }
+  
 }
