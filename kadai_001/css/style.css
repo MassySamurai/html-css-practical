@@ -4,6 +4,8 @@
 
 body {
   max-width: 1440px;
+  margin: 0;
+  padding: 0;
   color: #000000;
   background-color: #ffffff;
   font-family: "Noto Sans Japanese", "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif;
@@ -14,6 +16,11 @@ h1 {
   font-size: 34px;
   border: 1px solid #000000;
   padding: 0 20px;
+}
+
+img {
+  margin: 0 auto;
+  width: 100%;
 }
 
 .header-all {
@@ -27,7 +34,7 @@ h1 {
 
 .header-all a {
   text-decoration: none;
-  margin-left: 20px;
+  margin: 0 10px;
   color: #0d0d0d;
 }
 
@@ -44,11 +51,6 @@ h1 {
   margin: 0 20px;
   list-style: none;
   font-weight: bold;
-}
-
-.main-image {
-  margin: 0 auto;
-  width: 100%;
 }
 
 h2 {
@@ -105,10 +107,6 @@ h2 {
   text-align: center;
 }
 
-.works-image {
-  width: 100%;
-}
-
 .works-block p {
   font-size: 18px;
 }
@@ -154,10 +152,5 @@ footer p {
   .works-block {
     padding-bottom: 20px;
     width: 100%;
-  }
-
-  .about-image {
-    margin: 0 auto;
-  }
-  
+  }  
 }
